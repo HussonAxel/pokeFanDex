@@ -1,0 +1,1462 @@
+{
+  "title": "Vanguard V4.0 Encounter Guide",
+  "creator": "Siaisa",
+  "classification": {
+    "Italics": "Custom/New Pokemon or Evolution",
+    "Bold & Underline": "Pokemon is a new variant",
+    "OW": "Pokemon is visible in Overworld",
+    "SQ": "Pokemon found from/during sidequest",
+    "T": "Pokemon is recieved via a Trade",
+    "F": "Pokemon is obtained as a Fossil",
+    "E": "Pokemon is received as an Egg",
+    "#TP": "Pokemon is purchased with Trainer Points",
+    "D": "Pokemon is a reward from a Raid Den",
+    "ED": "Rewarded from Enhanced Raid Den",
+    "C#": "A choice between multiple Pokemon",
+    "Ch#": "Encounter available in a later chapter"
+  },
+  "notes": [
+    "Green Areas like Archon Beach are Side Areas which you are not required to visit in the main story.",
+    "Every Area has the same encounter rates for all the Pokemon listed. The equation for the encounter rate of each Pokemon being \"100/(# of unique encounters)\".",
+    "Eevee can evolve upon reaching Level 28+ while holding any 'Type Gem' item except the Dragon Gem as a different item is needed for the Dragon Type 'Eeveelution'.",
+    "Starter Pokemon can be bought at the lab for Trainer Points upon entering Act 3. (This is not a typo, the ability to purchase them was pushed back an Act compared to Version 3.5)."
+  ],
+  "acts": [
+    {
+      "name": "Act One",
+      "chapters": [
+        {
+          "name": "Chapter 1",
+          "areas": [
+            {
+              "name": "Oceia",
+              "levelRange": "2-4",
+              "encounters": [
+                { "pokemon": "Caterpie", "rate": "20%" },
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Stunky", "rate": "20%" },
+                { "pokemon": "Fletchling", "rate": "20%" },
+                { "pokemon": "Applin", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Ratatta",
+                  "type": "OW",
+                  "notes": "In a trashcan in the house right of the Route 1 Gate."
+                },
+                {
+                  "pokemon": "Sandile",
+                  "type": "T",
+                  "notes": "Birdkeeper wants a Pidgey for Sandile."
+                },
+                { "pokemon": "Sinistea", "type": "C1" },
+                { "pokemon": "Chingling", "type": "C1" },
+                { "pokemon": "Bergmite", "type": "C1" },
+                {
+                  "pokemon": "Eevee",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 2."
+                }
+              ]
+            },
+            {
+              "name": "Route One",
+              "levelRange": "3-5",
+              "encounters": [
+                { "pokemon": "Caterpie", "rate": "20%" },
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Fletchling", "rate": "20%" },
+                { "pokemon": "Cutiefly", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Combee", "type": "OW" },
+                { "pokemon": "Budew", "type": "OW" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 2",
+          "areas": [
+            {
+              "name": "Archon Station",
+              "levelRange": "3-5",
+              "encounters": [
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Fletchling", "rate": "20%" },
+                { "pokemon": "Cutiefly", "rate": "20%" },
+                { "pokemon": "Applin", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Kuria Station",
+              "levelRange": "4-6",
+              "encounters": [
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Stunky", "rate": "20%" },
+                { "pokemon": "Applin", "rate": "20%" },
+                { "pokemon": "Weedle", "rate": "20%" },
+                { "pokemon": "Wattrel", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Riverside Crossing",
+              "levelRange": "5-7",
+              "encounters": [
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Oddish", "rate": "20%" },
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Weedle", "rate": "20%" },
+                { "pokemon": "Flittle", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Forested Cavern",
+              "levelRange": "6-8",
+              "encounters": [
+                { "pokemon": "Zubat", "rate": "20%" },
+                { "pokemon": "Spinarak", "rate": "20%" },
+                { "pokemon": "Shuppet", "rate": "20%" },
+                { "pokemon": "Chewtle", "rate": "20%" },
+                { "pokemon": "Weedle", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Ledyba", "type": "OW" },
+                { "pokemon": "Zubat", "type": "OW" },
+                { "pokemon": "Spinarak", "type": "OW" },
+                {
+                  "pokemon": "Tyrunt",
+                  "type": "F",
+                  "notes": "Available in Chapter 6."
+                },
+                {
+                  "pokemon": "Growlithe",
+                  "type": "D",
+                  "notes": "Available in Chapter 6."
+                }
+              ]
+            },
+            {
+              "name": "Route Two",
+              "levelRange": "6-8",
+              "encounters": [
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Pidove", "rate": "20%" },
+                { "pokemon": "Swablu", "rate": "20%" },
+                { "pokemon": "Smoliv", "rate": "20%" },
+                { "pokemon": "Wattrel", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Pidove", "type": "OW" },
+                { "pokemon": "Zigzagoon", "type": "OW" },
+                {
+                  "pokemon": "Poochyena",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 3."
+                }
+              ]
+            },
+            {
+              "name": "Archon Beach",
+              "sideArea": true,
+              "levelRange": "4-6",
+              "encounters": [
+                { "pokemon": "Spearow", "rate": "20%" },
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Corphish", "rate": "20%" },
+                { "pokemon": "Bidoof", "rate": "20%" },
+                { "pokemon": "Applin", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Combee", "type": "OW" },
+                { "pokemon": "Merlicun", "type": "D" },
+                { "pokemon": "Nymble", "type": "D" }
+              ]
+            },
+            {
+              "name": "Beachside Cavern",
+              "sideArea": true,
+              "levelRange": "4-6",
+              "encounters": [
+                { "pokemon": "Corphish", "rate": "25%" },
+                { "pokemon": "Bidoof", "rate": "25%" },
+                { "pokemon": "Crabrawler", "rate": "25%" },
+                { "pokemon": "Alolan Sandshrew", "rate": "25%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Tirtouga",
+                  "type": "F",
+                  "notes": "Dropped by the Alpha Bibarel inside the cave."
+                }
+              ]
+            },
+            {
+              "name": "Sutaru Woods",
+              "sideArea": true,
+              "levelRange": "5-8",
+              "encounters": [
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Nosepass", "rate": "20%" },
+                { "pokemon": "Swablu", "rate": "20%" },
+                { "pokemon": "Smoliv", "rate": "20%" },
+                { "pokemon": "Wattrel", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Lileep",
+                  "type": "F",
+                  "notes": "Available in Chapter 8. Requires Frost Walker to reach."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 3",
+          "areas": [
+            {
+              "name": "V.Academy Courtyard",
+              "levelRange": "5-8",
+              "encounters": [
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Nidoran F", "rate": "20%" },
+                { "pokemon": "Oddish", "rate": "20%" },
+                { "pokemon": "Spinarak", "rate": "20%" },
+                { "pokemon": "Weedle", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Route Three",
+              "levelRange": "5-8",
+              "encounters": [
+                { "pokemon": "Ponyta", "rate": "20%" },
+                { "pokemon": "Lotad", "rate": "20%" },
+                { "pokemon": "Pidove", "rate": "20%" },
+                { "pokemon": "Shinx", "rate": "20%" },
+                { "pokemon": "Smoliv", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Bonsly",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 4."
+                },
+                { "pokemon": "Pawmi", "type": "D" }
+              ]
+            },
+            {
+              "name": "Souten Farm",
+              "levelRange": "6-9",
+              "encounters": [
+                { "pokemon": "Rattata", "rate": "20%" },
+                { "pokemon": "Oddish", "rate": "20%" },
+                { "pokemon": "Hoothoot", "rate": "20%" },
+                { "pokemon": "Mareep", "rate": "20%" },
+                { "pokemon": "Lechonk", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Oddish", "type": "OW" }]
+            },
+            {
+              "name": "Route Four-A",
+              "levelRange": "6-9",
+              "encounters": [
+                { "pokemon": "Metapod", "rate": "20%" },
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Oddish", "rate": "20%" },
+                { "pokemon": "Seedot", "rate": "20%" },
+                { "pokemon": "Shinx", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Pidgey", "type": "OW" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 4",
+          "areas": [
+            {
+              "name": "Blackstone Cavern",
+              "levelRange": "7-10",
+              "encounters": [
+                { "pokemon": "Zubat", "rate": "20%" },
+                { "pokemon": "Machop", "rate": "20%" },
+                { "pokemon": "Whismur", "rate": "20%" },
+                { "pokemon": "Vanillite", "rate": "20%" },
+                { "pokemon": "Geodude", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Vanillite", "type": "OW" },
+                { "pokemon": "Sandshrew", "type": "OW" },
+                { "pokemon": "Roggenrola", "type": "OW" },
+                { "pokemon": "Zubat", "type": "SQ" },
+                { "pokemon": "Amaura", "type": "F" }
+              ]
+            },
+            {
+              "name": "Route Four-B",
+              "levelRange": "8-11",
+              "encounters": [
+                { "pokemon": "Metapod", "rate": "20%" },
+                { "pokemon": "Oddish", "rate": "20%" },
+                { "pokemon": "Seedot", "rate": "20%" },
+                { "pokemon": "Azurill", "rate": "20%" },
+                { "pokemon": "Shinx", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Drifloon", "type": "D" },
+                { "pokemon": "Snorunt", "type": "SQ" },
+                { "pokemon": "Skitty", "type": "D" }
+              ]
+            },
+            {
+              "name": "Souten",
+              "levelRange": "9-12",
+              "encounters": [
+                { "pokemon": "Sentret", "rate": "20%" },
+                { "pokemon": "Zizagoon", "rate": "20%" },
+                { "pokemon": "Kricketot", "rate": "20%" },
+                { "pokemon": "Skwovet", "rate": "20%" },
+                { "pokemon": "Hoothoot", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Pidgey", "type": "OW" },
+                {
+                  "pokemon": "Stufful",
+                  "type": "E",
+                  "notes": "From the young girl in the house below the Pokemon Center."
+                },
+                { "pokemon": "Dunsparce", "type": "10TP" }
+              ]
+            },
+            {
+              "name": "Souten Woods",
+              "levelRange": "10-13",
+              "encounters": [
+                { "pokemon": "Metapod", "rate": "20%" },
+                { "pokemon": "Paras", "rate": "20%" },
+                { "pokemon": "Ledbya", "rate": "20%" },
+                { "pokemon": "Phantump", "rate": "20%" },
+                { "pokemon": "Kakuna", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Ledyba", "type": "OW" },
+                { "pokemon": "Pumpkaboo", "type": "D" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 5",
+          "areas": [],
+          "notes": "There are no new encounters available for Chapter 5"
+        },
+        {
+          "name": "Chapter 6",
+          "areas": [
+            {
+              "name": "Qyilex",
+              "levelRange": "14-17",
+              "encounters": [
+                { "pokemon": "Cubone", "rate": "20%" },
+                { "pokemon": "Zigzagoon", "rate": "20%" },
+                { "pokemon": "Seedot", "rate": "20%" },
+                { "pokemon": "Surskit", "rate": "20%" },
+                { "pokemon": "Hoothoot", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Qyilex Woods",
+              "levelRange": "14-17",
+              "encounters": [
+                { "pokemon": "Cubone", "rate": "20%" },
+                { "pokemon": "Buneary", "rate": "20%" },
+                { "pokemon": "Carnivine", "rate": "20%" },
+                { "pokemon": "Smoliv", "rate": "20%" },
+                { "pokemon": "Rellor", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Carnivine", "type": "OW" }]
+            },
+            {
+              "name": "Aureyes Temple",
+              "levelRange": "14-17",
+              "encounters": [
+                { "pokemon": "Voltorb", "rate": "20%" },
+                { "pokemon": "Baltoy", "rate": "20%" },
+                { "pokemon": "Carnivine", "rate": "20%" },
+                { "pokemon": "Golett", "rate": "20%" },
+                { "pokemon": "Tarountula", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Gatiriopteryx", "type": "F" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 7",
+          "areas": [
+            {
+              "name": "Tourist District",
+              "levelRange": "15-18",
+              "encounters": [
+                { "pokemon": "Rattata", "rate": "20%" },
+                { "pokemon": "Nidorino", "rate": "20%" },
+                { "pokemon": "Lillipup", "rate": "20%" },
+                { "pokemon": "Purrloin", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Eastern Res. District",
+              "levelRange": "15-18",
+              "encounters": [
+                { "pokemon": "Nidorina", "rate": "20%" },
+                { "pokemon": "Zigzagoon", "rate": "20%" },
+                { "pokemon": "Patrat", "rate": "20%" },
+                { "pokemon": "Pidove", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Indeedee", "type": "SQ" },
+                {
+                  "pokemon": "Elekid",
+                  "type": "T",
+                  "notes": "Trader wants a Pidove for the Elekid."
+                },
+                { "pokemon": "Tyrogue", "type": "20TP" }
+              ]
+            },
+            {
+              "name": "Route Six",
+              "levelRange": "16-19",
+              "encounters": [
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Vulpix", "rate": "20%" },
+                { "pokemon": "Yanma", "rate": "20%" },
+                { "pokemon": "Electrike", "rate": "20%" },
+                { "pokemon": "Blitzle", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Ponyta", "type": "OW" },
+                { "pokemon": "Electrike", "type": "OW" },
+                {
+                  "pokemon": "Ducklett",
+                  "type": "SQ",
+                  "notes": "Quest from Lady with Vivillion in East Residential District's Park."
+                }
+              ]
+            },
+            {
+              "name": "Cionsta Park",
+              "sideArea": true,
+              "levelRange": "15-18",
+              "encounters": [
+                { "pokemon": "Pidgey", "rate": "20%" },
+                { "pokemon": "Nidorina", "rate": "20%" },
+                { "pokemon": "Zigzagoon", "rate": "20%" },
+                { "pokemon": "Patrat", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Gloom", "type": "OW" },
+                { "pokemon": "Jangmo-o", "type": "D" },
+                {
+                  "pokemon": "Gible",
+                  "type": "D",
+                  "notes": "Available in Chapter 28."
+                }
+              ]
+            },
+            {
+              "name": "Cionsta Cave (Grassy)",
+              "sideArea": true,
+              "levelRange": "16 - 19",
+              "encounters": [
+                { "pokemon": "Electrike", "rate": "15%" },
+                { "pokemon": "Patrat", "rate": "20%" },
+                { "pokemon": "Purrloin", "rate": "20%" },
+                { "pokemon": "Pancham", "rate": "15%" },
+                { "pokemon": "Klefki", "rate": "15%" },
+                { "pokemon": "Growlithe", "rate": "15%" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 8",
+          "areas": [
+            {
+              "name": "Arlen Sewers",
+              "levelRange": "17-20",
+              "encounters": [
+                { "pokemon": "Ekans", "rate": "20%" },
+                { "pokemon": "Grimer", "rate": "20%" },
+                { "pokemon": "Gastly", "rate": "20%" },
+                { "pokemon": "Vanillite", "rate": "20%" },
+                { "pokemon": "Revaroom", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Souten Beachside",
+              "levelRange": "17-20",
+              "encounters": [
+                { "pokemon": "Horsea", "rate": "20%" },
+                { "pokemon": "Corsola", "rate": "20%" },
+                { "pokemon": "Corphish", "rate": "20%" },
+                { "pokemon": "Mantyke", "rate": "20%" },
+                { "pokemon": "Dwebble", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Anorith", "type": "F" },
+                { "pokemon": "Goldeen", "type": "D" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 9",
+          "areas": [],
+          "notes": "There are no new encounters available for Chapter 9. However the Fossil Restoration Scientist will arrive at The Vanguard Academy Library once the chapter ends."
+        },
+        {
+          "name": "Chapter 10",
+          "areas": [
+            {
+              "name": "Route Five",
+              "levelRange": "19-22",
+              "encounters": [
+                { "pokemon": "Poliwag", "rate": "20%" },
+                { "pokemon": "Lombre", "rate": "20%" },
+                { "pokemon": "Luvdisc", "rate": "20%" },
+                { "pokemon": "Croagunk", "rate": "20%" },
+                { "pokemon": "Shroomish", "rate": "20%" },
+                { "pokemon": "Stantler", "rate": "16.67%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Lombre", "type": "OW" },
+                { "pokemon": "Poliwhirl", "type": "OW" },
+                { "pokemon": "Croagunk", "type": "OW" },
+                { "pokemon": "Karrablast", "type": "OW" },
+                { "pokemon": "Vulpix (Water)", "type": "D" }
+              ]
+            },
+            {
+              "name": "Kuria Lake",
+              "sideArea": true,
+              "levelRange": "12-15",
+              "encounters": [
+                { "pokemon": "Metapod", "rate": "16%" },
+                { "pokemon": "Pidgey", "rate": "16%" },
+                { "pokemon": "Rattata", "rate": "16%" },
+                { "pokemon": "Poliwag", "rate": "16%" },
+                { "pokemon": "Fletchling", "rate": "16%" },
+                { "pokemon": "Stantler", "rate": "16%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Quagsire", "type": "OW", "notes": "SQ" },
+                { "pokemon": "Lombre", "type": "OW", "notes": "SQ" },
+                { "pokemon": "Marill", "type": "OW", "notes": "SQ" },
+                { "pokemon": "Furret", "type": "OW", "notes": "SQ" },
+                { "pokemon": "Skiddo", "type": "D" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 11",
+          "areas": [
+            {
+              "name": "Archon Trail: Lower",
+              "levelRange": "21-24",
+              "encounters": [
+                { "pokemon": "Fearow", "rate": "20%" },
+                { "pokemon": "Seviper", "rate": "20%" },
+                { "pokemon": "Herdier", "rate": "20%" },
+                { "pokemon": "Skiddo", "rate": "20%" },
+                { "pokemon": "Pancham", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Smoochum", "type": "D" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 12",
+          "areas": [
+            {
+              "name": "Archon Trail: Upper",
+              "levelRange": "21-24",
+              "encounters": [
+                { "pokemon": "Fearow", "rate": "20%" },
+                { "pokemon": "Doduo", "rate": "20%" },
+                { "pokemon": "Swinub", "rate": "20%" },
+                { "pokemon": "Zangoose", "rate": "20%" },
+                { "pokemon": "Boldore", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Shieldon",
+                  "type": "F",
+                  "notes": "In a chest past the first Defiance Grunt."
+                }
+              ]
+            },
+            {
+              "name": "Mt.Archon",
+              "levelRange": "21-24",
+              "encounters": [
+                { "pokemon": "Fearow", "rate": "20%" },
+                { "pokemon": "Doduo", "rate": "20%" },
+                { "pokemon": "Zangoose", "rate": "20%" },
+                { "pokemon": "Boldore", "rate": "20%" },
+                { "pokemon": "Pancham", "rate": "20%" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 13",
+          "areas": [
+            {
+              "name": "Route Seven",
+              "levelRange": "25-28",
+              "encounters": [
+                { "pokemon": "Swinub", "rate": "20%" },
+                { "pokemon": "Buneary", "rate": "20%" },
+                { "pokemon": "Sandile", "rate": "20%" },
+                { "pokemon": "Cubchoo", "rate": "20%" },
+                { "pokemon": "Skiddo", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Snover", "type": "OW" },
+                { "pokemon": "Swinub", "type": "OW" },
+                {
+                  "pokemon": "Alolan Vulpix",
+                  "type": "OW",
+                  "notes": "Available in Chapter 14."
+                },
+                { "pokemon": "Abra", "type": "D" }
+              ]
+            },
+            {
+              "name": "Sidestone Cavern",
+              "levelRange": "25-28",
+              "encounters": [
+                { "pokemon": "Boldore", "rate": "20%" },
+                { "pokemon": "Swoobat", "rate": "20%" },
+                { "pokemon": "Sandile", "rate": "20%" },
+                { "pokemon": "Cubchoo", "rate": "20%" },
+                { "pokemon": "Graveler", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Avaros Cavern",
+              "levelRange": "28-31",
+              "encounters": [
+                { "pokemon": "Phanpy", "rate": "20%" },
+                { "pokemon": "Boldore", "rate": "20%" },
+                { "pokemon": "Sandile", "rate": "20%" },
+                { "pokemon": "Crabrawler", "rate": "20%" },
+                { "pokemon": "Frigibax", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Avaros (Town)",
+              "levelRange": "24-27",
+              "encounters": [
+                { "pokemon": "Seel", "rate": "20%" },
+                { "pokemon": "Corsola", "rate": "20%" },
+                { "pokemon": "Spheal", "rate": "20%" },
+                { "pokemon": "Sandile", "rate": "20%" },
+                { "pokemon": "Skiddo", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Archen", "type": "20TP" }]
+            },
+            {
+              "name": "Frostborn Clearing",
+              "levelRange": "24-27",
+              "encounters": [
+                { "pokemon": "Phanpy", "rate": "20%" },
+                { "pokemon": "Snover", "rate": "20%" },
+                { "pokemon": "Cubchoo", "rate": "20%" },
+                { "pokemon": "Skiddo", "rate": "20%" },
+                { "pokemon": "Cetoddle", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Togepi", "type": "D" },
+                {
+                  "pokemon": "Therapex",
+                  "type": "F",
+                  "notes": "Available in Chapter 14. Check the Shrine North of the Togepi Den then again once the battle concludes."
+                }
+              ]
+            },
+            {
+              "name": "Frostborne Forest",
+              "levelRange": "24-27",
+              "encounters": [
+                { "pokemon": "Doduo", "rate": "25%" },
+                { "pokemon": "Snover", "rate": "25%" },
+                { "pokemon": "Cubchoo", "rate": "25%" },
+                { "pokemon": "Snom", "rate": "25%" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 14",
+          "areas": [
+            {
+              "name": "Avaros Mountain",
+              "levelRange": "28-31",
+              "encounters": [
+                { "pokemon": "Diglett", "rate": "20%" },
+                { "pokemon": "Doduo", "rate": "20%" },
+                { "pokemon": "Swinub", "rate": "20%" },
+                { "pokemon": "Rockruff", "rate": "20%" },
+                { "pokemon": "Cetoddle", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Munchlax",
+                  "type": "D",
+                  "notes": "Only accessible from the southern entrance at Route Seven."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 15",
+          "areas": [],
+          "notes": "There are no new areas with encounters for Chapter 15."
+        }
+      ]
+    },
+    {
+      "name": "Act Two",
+      "chapters": [
+        {
+          "name": "Chapter 16",
+          "areas": [
+            {
+              "name": "Eastbound Forest",
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Tauros", "rate": "20%" },
+                { "pokemon": "Stantler", "rate": "20%" },
+                { "pokemon": "Budew", "rate": "20%" },
+                { "pokemon": "Dedenne", "rate": "20%" },
+                { "pokemon": "Eldegoss", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Aerodactyl", "type": "F" },
+                { "pokemon": "Hatenna", "type": "D" },
+                {
+                  "pokemon": "Nidoqueen",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 17."
+                },
+                {
+                  "pokemon": "Mightyena",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 17."
+                },
+                {
+                  "pokemon": "Nidoking",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 17."
+                },
+                {
+                  "pokemon": "Mothim",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 17."
+                },
+                {
+                  "pokemon": "Arbok",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 17."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 17",
+          "areas": [
+            {
+              "name": "Runaans Port",
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Drifloon", "rate": "20%" },
+                { "pokemon": "Chingling", "rate": "20%" },
+                { "pokemon": "Watchog", "rate": "20%" },
+                { "pokemon": "Audino", "rate": "20%" },
+                { "pokemon": "Minccino", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Axew", "type": "20TP" }]
+            },
+            {
+              "name": "Route Eight",
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Stantler", "rate": "50%" },
+                { "pokemon": "Sewaddle", "rate": "25%" },
+                { "pokemon": "Steenee", "rate": "25%" },
+                { "pokemon": "Boltund", "rate": "25%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Charcadet", "type": "D" }]
+            },
+            {
+              "name": "Mt.Runaan (West)",
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Houndour", "rate": "20%" },
+                { "pokemon": "Nosepass", "rate": "20%" },
+                { "pokemon": "Lunatone", "rate": "20%" },
+                { "pokemon": "Graveler", "rate": "20%" },
+                { "pokemon": "Nacli", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Ameliera District",
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Yanma", "rate": "20%" },
+                { "pokemon": "Budew", "rate": "20%" },
+                { "pokemon": "Drifloon", "rate": "20%" },
+                { "pokemon": "Audino", "rate": "20%" },
+                { "pokemon": "Eldegoss", "rate": "20%" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 18",
+          "areas": [
+            {
+              "name": "Mt.Runaan Central",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Lunatone", "rate": "20%" },
+                { "pokemon": "Boldore", "rate": "20%" },
+                { "pokemon": "Rockruff", "rate": "20%" },
+                { "pokemon": "Cufant", "rate": "20%" },
+                { "pokemon": "Klawf", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Mt. Runaan (Exterior)",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Rhyhorn", "rate": "20%" },
+                { "pokemon": "Stantler", "rate": "20%" },
+                { "pokemon": "Zebstrika", "rate": "20%" },
+                { "pokemon": "Helioptile", "rate": "20%" },
+                { "pokemon": "Ribombee", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Rhyhorn", "type": "OW" },
+                {
+                  "pokemon": "Rhydon",
+                  "type": "OW",
+                  "notes": "Available in Chapter 19."
+                },
+                {
+                  "pokemon": "Riolu",
+                  "type": "D",
+                  "notes": "Available in Chapter 19."
+                }
+              ]
+            },
+            {
+              "name": "Route Nine",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Surskit", "rate": "20%" },
+                { "pokemon": "Spinda", "rate": "20%" },
+                { "pokemon": "Corphish", "rate": "20%" },
+                { "pokemon": "Pidgeotto", "rate": "20%" },
+                { "pokemon": "Trumbeak", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Koriko",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Wingull", "rate": "20%" },
+                { "pokemon": "Chingling", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" },
+                { "pokemon": "Gothita", "rate": "20%" },
+                { "pokemon": "Mabostiff", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Chatot",
+                  "type": "T",
+                  "notes": "Trader is in the yellow house by the mart, she wants a Chingling in exchange."
+                }
+              ]
+            },
+            {
+              "name": "Aureyes Forest",
+              "sideArea": true,
+              "levelRange": "29-32",
+              "encounters": [
+                { "pokemon": "Koffing", "rate": "20%" },
+                { "pokemon": "Misdreavus", "rate": "20%" },
+                { "pokemon": "Shuppet", "rate": "20%" },
+                { "pokemon": "Noibat", "rate": "20%" },
+                { "pokemon": "Greavard", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Sylure", "type": "D" }]
+            },
+            {
+              "name": "Mt.Runaan East",
+              "sideArea": true,
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Rhyhorn", "rate": "20%" },
+                { "pokemon": "Ursaring", "rate": "20%" },
+                { "pokemon": "Stantler", "rate": "20%" },
+                { "pokemon": "Zebstrika", "rate": "20%" },
+                { "pokemon": "Helioptile", "rate": "20%" }
+              ],
+              "notes": "Entrance is on the east side of Route 8."
+            }
+          ]
+        },
+        {
+          "name": "Chapter 19",
+          "areas": [
+            {
+              "name": "Rivera Hillside",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Rhyhorn", "rate": "20%" },
+                { "pokemon": "Ursaring", "rate": "20%" },
+                { "pokemon": "Stantler", "rate": "20%" },
+                { "pokemon": "Zebstrika", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" }
+              ],
+              "notes": "The Static Pokemon in Mt.Runaan Depths can all be caught earlier so they aren't listed here."
+            },
+            {
+              "name": "Route Ten",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Jigglypuff", "rate": "20%" },
+                { "pokemon": "Hypno", "rate": "20%" },
+                { "pokemon": "Noctowl", "rate": "20%" },
+                { "pokemon": "Hoppip", "rate": "20%" },
+                { "pokemon": "Spritzee", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Gloom", "type": "OW" },
+                { "pokemon": "Primeape", "type": "OW" },
+                { "pokemon": "Wolfum", "type": "D" },
+                {
+                  "pokemon": "Litleo",
+                  "type": "D",
+                  "notes": "Litleo's Den can be found in Illusi Cavern which connects Route Ten and Eleven. There are no wild encounters there."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 20",
+          "areas": [
+            {
+              "name": "Route Eleven",
+              "levelRange": "33-35",
+              "encounters": [
+                { "pokemon": "Hoppip", "rate": "20%" },
+                { "pokemon": "Surskit", "rate": "20%" },
+                { "pokemon": "Tranquil", "rate": "20%" },
+                { "pokemon": "Spritzee", "rate": "20%" },
+                { "pokemon": "Impidimp", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Toedscool", "type": "OW" }]
+            },
+            {
+              "name": "Rivera",
+              "levelRange": "34-36",
+              "encounters": [
+                { "pokemon": "Weepinbell", "rate": "20%" },
+                { "pokemon": "Volbeat", "rate": "20%" },
+                { "pokemon": "Drifloon", "rate": "20%" },
+                { "pokemon": "Mime.Jr", "rate": "20%" },
+                { "pokemon": "Tynamo", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Rivera Woods",
+              "levelRange": "34-36",
+              "encounters": [
+                { "pokemon": "Linoone", "rate": "20%" },
+                { "pokemon": "Nuzleaf", "rate": "20%" },
+                { "pokemon": "Ninjask", "rate": "20%" },
+                { "pokemon": "Illumise", "rate": "20%" },
+                { "pokemon": "Koffing", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Deerling", "type": "D" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 21",
+          "areas": [
+            {
+              "name": "Lakeside Island",
+              "sideArea": true,
+              "levelRange": "34-37",
+              "encounters": [
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Wormadam", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" },
+                { "pokemon": "Noctowl", "rate": "20%" },
+                { "pokemon": "Marowak", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Tinkatink",
+                  "type": "20TP",
+                  "notes": "Available in Chapter 22. Southwest Corner. From an NPC south of where you speak with Vivi."
+                },
+                {
+                  "pokemon": "Ditto",
+                  "type": "D",
+                  "notes": "Den can be reached from Northeast exit of Illusi Forest."
+                }
+              ],
+              "notes": "Can return via an NPC in Rivera Woods Post Chapter 21."
+            },
+            {
+              "name": "Illusi Forest",
+              "levelRange": "34-37",
+              "encounters": [
+                { "pokemon": "Teddiursa", "rate": "20%" },
+                { "pokemon": "Volbeat", "rate": "20%" },
+                { "pokemon": "Illumise", "rate": "20%" },
+                { "pokemon": "Mincinno", "rate": "20%" },
+                { "pokemon": "Floette", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Parasect", "type": "OW" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 22",
+          "areas": [
+            {
+              "name": "Route Twelve",
+              "levelRange": "36-38",
+              "encounters": [
+                { "pokemon": "Seel", "rate": "20%" },
+                { "pokemon": "Barboach", "rate": "20%" },
+                { "pokemon": "Relicanth", "rate": "20%" },
+                { "pokemon": "Dwebble", "rate": "20%" },
+                { "pokemon": "Frillish", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Omanyte",
+                  "type": "F",
+                  "notes": "Chest between ledges on the left side."
+                },
+                { "pokemon": "Tartot", "type": "D" }
+              ]
+            },
+            {
+              "name": "Citrine",
+              "levelRange": "37-39",
+              "encounters": [
+                { "pokemon": "Aipom", "rate": "20%" },
+                { "pokemon": "Yanma", "rate": "20%" },
+                { "pokemon": "Slakoth", "rate": "20%" },
+                { "pokemon": "Tropius", "rate": "20%" },
+                { "pokemon": "Floette", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Magikarp", "type": "SQ" }]
+            },
+            {
+              "name": "Citrine Jungle",
+              "levelRange": "37-39",
+              "encounters": [
+                { "pokemon": "Exeggcute", "rate": "20%" },
+                { "pokemon": "Slakoth", "rate": "20%" },
+                { "pokemon": "Tropius", "rate": "20%" },
+                { "pokemon": "Carnivine", "rate": "20%" },
+                { "pokemon": "Simisage", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Yanma", "type": "OW" },
+                { "pokemon": "Exeggcutor", "type": "OW" },
+                { "pokemon": "Trapinch", "type": "D" },
+                {
+                  "pokemon": "Yanmega",
+                  "type": "SQ",
+                  "notes": "Available in Chapter 23."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 23",
+          "areas": [
+            {
+              "name": "Eastcliff Path",
+              "levelRange": "37-39",
+              "encounters": [
+                { "pokemon": "Stantler", "rate": "20%" },
+                { "pokemon": "Meinfoo", "rate": "20%" },
+                { "pokemon": "Heatmor", "rate": "20%" },
+                { "pokemon": "Bunnelby", "rate": "20%" },
+                { "pokemon": "Magnemite", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Cranidos",
+                  "type": "F",
+                  "notes": "Head south along a small pathway just after the first trainer you face in Eastcliff Cavern, the exit will lead to an offshoot with the Skull Fossil Item ball."
+                }
+              ]
+            },
+            {
+              "name": "Eastcliff Cavern",
+              "levelRange": "38-40",
+              "encounters": [
+                { "pokemon": "Wormadam", "rate": "20%" },
+                { "pokemon": "Nosepass", "rate": "20%" },
+                { "pokemon": "Boldore", "rate": "20%" },
+                { "pokemon": "Woobat", "rate": "20%" },
+                { "pokemon": "Durant", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Bagon",
+                  "type": "D",
+                  "notes": "You'll find a wild Bagon in one of the lower levels near an oasis. Interacting with it will cause it to flee, keep chasing it until it appears on one of the upper levels. Upon talking to it again will have it headbutt you to the area where the Den is located."
+                }
+              ],
+              "notes": "Boldore is also the sole wild encounter within Eastcliff Gate."
+            },
+            {
+              "name": "Route Thirteen",
+              "levelRange": "39-41",
+              "encounters": [
+                { "pokemon": "Aron", "rate": "20%" },
+                { "pokemon": "Mudsdale", "rate": "20%" },
+                { "pokemon": "Carkol", "rate": "20%" },
+                { "pokemon": "Flaaffy", "rate": "20%" },
+                { "pokemon": "Capsakid", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Ignitia",
+              "levelRange": "40-42",
+              "encounters": [
+                { "pokemon": "Magmar", "rate": "20%" },
+                { "pokemon": "Slugma", "rate": "20%" },
+                { "pokemon": "Aron", "rate": "20%" },
+                { "pokemon": "Torkoal", "rate": "20%" },
+                { "pokemon": "Vanillish", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Dratini", "type": "D" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 24",
+          "areas": [
+            {
+              "name": "Illusi Grotto",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Grumpig", "rate": "20%" },
+                { "pokemon": "Stoutland", "rate": "20%" },
+                { "pokemon": "Liepard", "rate": "20%" },
+                { "pokemon": "Dubwool", "rate": "20%" },
+                { "pokemon": "Ampharos", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Venipede", "type": "D" }]
+            },
+            {
+              "name": "Kirba Desert",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Venonat", "rate": "25%" },
+                { "pokemon": "Cacnea", "rate": "50%" },
+                { "pokemon": "Drednaw", "rate": "25%" },
+                { "pokemon": "Silicobra", "rate": "25%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Primeape", "type": "SQ" },
+                {
+                  "pokemon": "Vulpix(Ground)",
+                  "type": "D",
+                  "notes": "Item ball up on the path blocked by the Level 80 Alpha Tyranitar."
+                }
+              ]
+            },
+            {
+              "name": "Northern Kirba",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Cacnea", "rate": "20%" },
+                { "pokemon": "Hippopotas", "rate": "20%" },
+                { "pokemon": "Zorua", "rate": "20%" },
+                { "pokemon": "Falinks", "rate": "20%" },
+                { "pokemon": "Bramblin", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                { "pokemon": "Salazzle", "type": "OW" },
+                {
+                  "pokemon": "Stonejourner",
+                  "type": "OW",
+                  "notes": "Available in Chapter 25."
+                },
+                {
+                  "pokemon": "Kabuto",
+                  "type": "F",
+                  "notes": "In a small pathway next to the Northeast Cofagrigus statue."
+                },
+                {
+                  "pokemon": "G.Yamask",
+                  "type": "20TP",
+                  "notes": "Sold by the trader directly behind the Pokecenter on the next level up in Kirba."
+                }
+              ]
+            },
+            {
+              "name": "Kirba Ruins",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Cacnea", "rate": "20%" },
+                { "pokemon": "Solrock", "rate": "20%" },
+                { "pokemon": "Skorupi", "rate": "20%" },
+                { "pokemon": "Yamask", "rate": "20%" },
+                { "pokemon": "Graveler", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Astralaxy", "type": "F" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 25-27",
+          "areas": [],
+          "notes": "After Chapter 24 there are no new encounters until the end of Chapter 27."
+        }
+      ]
+    },
+    {
+      "name": "Act Three",
+      "chapters": [
+        {
+          "name": "Chapter 28",
+          "areas": [
+            {
+              "name": "Auburn Woods (Est. Area)",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Cascoon/Dustox", "rate": "20%" },
+                { "pokemon": "Taillow/Swellow", "rate": "20%" },
+                { "pokemon": "Numel/Camellum", "rate": "20%" },
+                { "pokemon": "Morelull/Shiinotic", "rate": "20%" },
+                { "pokemon": "Shroodle/Grafaiai", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Auburn Station",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Silcoon", "rate": "20%" },
+                { "pokemon": "Taillow", "rate": "20%" },
+                { "pokemon": "Kricketot", "rate": "20%" },
+                { "pokemon": "Fomantis", "rate": "20%" },
+                { "pokemon": "Hoothoot", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Auburn Cove",
+              "levelRange": "41-43",
+              "encounters": [
+                { "pokemon": "Poliwag/Poliwrath", "rate": "20%" },
+                { "pokemon": "Taillow/Swellow", "rate": "20%" },
+                { "pokemon": "Kricketot/Kricketune", "rate": "20%" },
+                { "pokemon": "Fomantis/Lurantis", "rate": "20%" },
+                { "pokemon": "Morelull/Shiinotic", "rate": "20%" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 29",
+          "areas": [
+            {
+              "name": "Auburn Woods (East)",
+              "levelRange": "42-44",
+              "encounters": [
+                { "pokemon": "Dustox", "rate": "16.67%" },
+                { "pokemon": "Numel/Camellum", "rate": "16.67%" },
+                { "pokemon": "Bronzor/Bronzong", "rate": "16.67%" },
+                { "pokemon": "Morelull", "rate": "16.67%" },
+                { "pokemon": "Shroodle/Grafaiai", "rate": "16.67%" },
+                { "pokemon": "Wooper/Clodsire", "rate": "16.67%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Masimuthi", "type": "D" }]
+            },
+            {
+              "name": "Kaedara",
+              "levelRange": "42-44",
+              "encounters": [
+                { "pokemon": "Poliwhirl/Politoed", "rate": "16.67%" },
+                { "pokemon": "Dustox", "rate": "16.67%" },
+                { "pokemon": "Taillow/Swellow", "rate": "16.67%" },
+                { "pokemon": "Meinfoo/Meinshao", "rate": "16.67%" },
+                { "pokemon": "Fomantis/Lurantis", "rate": "16.67%" },
+                { "pokemon": "Morelull", "rate": "16.67%" }
+              ]
+            },
+            {
+              "name": "Route Sixteen",
+              "levelRange": "42-44",
+              "encounters": [
+                { "pokemon": "Poliwhirl/Politoed", "rate": "25%" },
+                { "pokemon": "Slowpoke/Slowbro", "rate": "25%" },
+                { "pokemon": "Wingull/Pelipper", "rate": "25%" },
+                { "pokemon": "Corphish/Crawdaunt", "rate": "25%" }
+              ]
+            },
+            {
+              "name": "Mt.Fueterre(Exterior)",
+              "levelRange": "42-45",
+              "encounters": [
+                { "pokemon": "Ledian", "rate": "20%" },
+                { "pokemon": "Heracross", "rate": "20%" },
+                { "pokemon": "Beautifly", "rate": "20%" },
+                { "pokemon": "Lombre", "rate": "20%" },
+                { "pokemon": "Cramorant", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Goomy", "type": "D" }]
+            }
+          ]
+        },
+        {
+          "name": "Chapter 30",
+          "areas": [
+            {
+              "name": "Auburn River",
+              "levelRange": "43-46",
+              "encounters": [
+                { "pokemon": "Poliwag/Poliwrath", "rate": "20%" },
+                { "pokemon": "Taillow/Swellow", "rate": "20%" },
+                { "pokemon": "Kricketot/Kricketune", "rate": "20%" },
+                { "pokemon": "Morelull/Shiinotic", "rate": "20%" },
+                { "pokemon": "Hoothoot/Noctowl", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Auburn Highlands",
+              "levelRange": "43-46",
+              "encounters": [
+                { "pokemon": "Aipom/Ambipom", "rate": "20%" },
+                { "pokemon": "Stantler/Wyrdeer", "rate": "20%" },
+                { "pokemon": "Swadloon/Leavanny", "rate": "20%" },
+                { "pokemon": "Fomantis/Lurantis", "rate": "20%" },
+                { "pokemon": "Tandemous/Maoushold", "rate": "20%" }
+              ],
+              "specialEncounters": [
+                {
+                  "pokemon": "Nickit",
+                  "type": "SQ",
+                  "notes": "Quest is started in Kaedra after starting Chapter 30, in which Nickit will flee to Auburn Highlands."
+                },
+                { "pokemon": "Larvitar", "type": "D" }
+              ]
+            },
+            {
+              "name": "Route Fourteen",
+              "levelRange": "44-47",
+              "encounters": [
+                { "pokemon": "Sneasel/Weavile", "rate": "20%" },
+                { "pokemon": "Piloswine/Mamoswine", "rate": "20%" },
+                { "pokemon": "Cubchoo/Beartic", "rate": "20%" },
+                { "pokemon": "Rockruff/Lycanroc", "rate": "20%" },
+                { "pokemon": "A.Sandshrew/Sandslash", "rate": "20%" }
+              ]
+            },
+            {
+              "name": "Route Fifteen",
+              "levelRange": "44-47",
+              "encounters": [
+                { "pokemon": "Sneasel/Weavile", "rate": "20%" },
+                { "pokemon": "Piloswine/Mamoswine", "rate": "20%" },
+                { "pokemon": "Cubchoo/Beartic", "rate": "20%" },
+                { "pokemon": "Bergmite/Avalugg", "rate": "20%" },
+                { "pokemon": "A.Sandshrew/Sandslash", "rate": "20%" }
+              ],
+              "specialEncounters": [{ "pokemon": "Dreepy", "type": "D" }]
+            }
+          ]
+        },
+        {
+          "name": "Post-Chapter 30",
+          "areas": [],
+          "notes": "There are no new encounters after Chapter 30 until the end of the current version. Route Seventeen lacks encounters at the time of this guide's creation."
+        }
+      ]
+    }
+  ],
+  "vanguardAcademyRewards": {
+    "version4.0": "Numel",
+    "trainerScore": [
+      { "score": 25, "reward": "Mime Jr." },
+      { "score": 80, "reward": "Klefki" },
+      { "score": 150, "reward": "Rockruff w/Own Tempo" },
+      { "score": 210, "reward": "Solosis" },
+      { "score": 280, "reward": "Mimikyu" }
+    ],
+    "pokemonCaught": [
+      { "count": 30, "reward": "Galarian Ponyta" },
+      { "count": 85, "reward": "Hisuian Qwilfish" },
+      { "count": 160, "reward": "Galarian Farfetch'd" },
+      { "count": 255, "reward": "Hisuian Growlithe" }
+    ]
+  },
+  "pokewheelPrizePool": [
+    "Skiddo",
+    "Pikachu",
+    "Fletchling",
+    "Rattata",
+    "Ponyta",
+    "Skitty",
+    "Marill",
+    "Zigzagoon",
+    "Gimmighoul",
+    "Pidgey"
+  ],
+  "specialEncounters": [
+    {
+      "name": "Special Encounter 1 (Druddigon)",
+      "description": "If you've managed to find all 20 Data Cables Key Items obtainable thus far you can turn them in to a scientist in Eastcliff. Once you do so you will be rewarded with a Druddigon."
+    },
+    {
+      "name": "Special Encounter 2 (Lapras)",
+      "description": "After the Major Story Events in Arlen you can head to Avaros and enter Frostborne Clearing, upon doing so you will hear a Pokemons cry. By traversing through to the back of the clearing you will encounter Eris' Lapras, where it will battle you. Upon victory you will fittingly recieve Lapras at Level 30. As well as be granted the ability to surf."
+    },
+    {
+      "name": "Special Encounter 3 (Svetrier/Drukknir)",
+      "description": "Once you have beaten Destiny at the end of Act 2, you can head to Rivera and speak to Marshall's mother, once you do head to the northeast corner of Rivera Woods. Upon winning the fight that takes place by Marshall's grave you will have to choose between pursuing Svetrier (Pink) or Drukknir (Gray). You will be able to locate the Pokemon chosen in Illusi Forest."
+    },
+    {
+      "name": "Special Encounter 4 (Griflet)",
+      "description": "After the events atop Mt.Fueterre in Chapter 29, you can head to Marshall's former room at the Guild in Koriko, interact with his dorm door to get the Dark Feather. Then head to Kaedra's Pokemon center and speak with the old man inside. He will give you the Light Feather. Finally, head up to where you fought Darreth atop Mt.Fueterre and you will be able to encounter and catch Griflet."
+    },
+    {
+      "name": "Special Encounter 5 (Pachirisu)",
+      "description": "Upon completing the current story of Version 4.0. You can head to Lavendam Market whereupon you can complete the Side Quest: Trickster. Completion of the quest will reward you with a Pachirisu."
+    }
+  ]
+}
