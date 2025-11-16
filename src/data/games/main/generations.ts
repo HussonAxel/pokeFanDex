@@ -4,8 +4,8 @@ interface generationsProps {
   slug: string
   subtitle: string
   classes: string
-  pokedexLength: string
-  pokedexRange: string[]
+  pokedexLength: number
+  pokedexRange: [number, number]
   starter?: number
 }
 
@@ -17,8 +17,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis',
     classes: '',
-    pokedexLength: '1025',
-    pokedexRange: ['0', '1025'],
+    pokedexLength: 1025,
+    pokedexRange: [0, 1025],
   },
   {
     generation: 'I',
@@ -27,8 +27,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'The original region where it all began. Home to 151 Pokémon and the legendary adventures of Red and Blue.',
     classes: '',
-    pokedexLength: '151',
-    pokedexRange: ['0', '151'],
+    pokedexLength: 151,
+    pokedexRange: [0, 151],
     starter: 1,
   },
   {
@@ -38,8 +38,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A region rich in tradition and history, introducing 100 new Pokémon and the day/night cycle.',
     classes: '',
-    pokedexLength: '100',
-    pokedexRange: ['151', '251'],
+    pokedexLength: 100,
+    pokedexRange: [151, 251],
     starter: 152,
   },
   {
@@ -49,8 +49,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A tropical paradise with diverse ecosystems, bringing 135 new Pokémon and double battles.',
     classes: '',
-    pokedexLength: '135',
-    pokedexRange: ['251', '386'],
+    pokedexLength: 135,
+    pokedexRange: [251, 386],
     starter: 252,
   },
   {
@@ -60,8 +60,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A region of myth and legend, introducing 107 new Pokémon and the physical/special split.',
     classes: '',
-    pokedexLength: '107',
-    pokedexRange: ['386', '493'],
+    pokedexLength: 107,
+    pokedexRange: [386, 493],
     starter: 387,
   },
   {
@@ -71,8 +71,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A modern metropolis inspired by New York, featuring 156 new Pokémon and seasonal changes.',
     classes: '',
-    pokedexLength: '156',
-    pokedexRange: ['493', '649'],
+    pokedexLength: 156,
+    pokedexRange: [493, 649],
     starter: 495,
   },
   {
@@ -82,8 +82,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A region of elegance and beauty, introducing 72 new Pokémon and Mega Evolution.',
     classes: '',
-    pokedexLength: '72',
-    pokedexRange: ['649', '721'],
+    pokedexLength: 72,
+    pokedexRange: [649, 721],
     starter: 650,
   },
   {
@@ -93,8 +93,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'A tropical archipelago with island culture, bringing 81 new Pokémon and regional variants.',
     classes: '',
-    pokedexLength: '88',
-    pokedexRange: ['721', '809'],
+    pokedexLength: 88,
+    pokedexRange: [721, 809],
     starter: 722,
   },
   {
@@ -104,8 +104,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'An industrial powerhouse with countryside charm, featuring 81 new Pokémon and Dynamax battles.',
     classes: '',
-    pokedexLength: '96',
-    pokedexRange: ['809', '905'],
+    pokedexLength: 96,
+    pokedexRange: [809, 905],
     starter: 810,
   },
   {
@@ -115,8 +115,8 @@ export const generations: generationsProps[] = [
     subtitle:
       'An open-world adventure across diverse landscapes, introducing 103 new Pokémon and Terastallization.',
     classes: '',
-    pokedexLength: '120',
-    pokedexRange: ['905', '1025'],
+    pokedexLength: 120,
+    pokedexRange: [905, 1025],
     starter: 906,
   },
 ]
