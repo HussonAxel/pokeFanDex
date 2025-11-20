@@ -1,23 +1,21 @@
 import { Tabs, TabsList, TabsPanel, TabsTab } from '@/components/ui/tabs'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Link } from '@tanstack/react-router'
 import { Route } from '@/routes/mains'
 
-import { useFetchPokemon, useFetchPokemonSpecies } from '@/data/api/api'
+import { useFetchPokemon } from '@/data/api/api'
 import { extractPokemonIdFromUrl } from '@/lib/utils'
 
 export default function Step2PokemonDetail() {
   const search = Route.useSearch()
   const currentPokemon = search.pokemon
   const { data: pokemon } = useFetchPokemon(currentPokemon || '')
-  const { data: pokemonSpecies } = useFetchPokemonSpecies(currentPokemon || '')
 
-  console.log(pokemon)
-  console.log(pokemonSpecies)
   return (
-    <article className="flex flex-col w-4/10 h-full">
-      <div className="w-full h-[64px] mx-auto">
+    <article className="flex flex-col flex-1 h-full overflow-y-auto no-scrollbar">
+      <div className="w-full p-6">
         <Tabs defaultValue="biography">
-          <div className="border-b w-full m-auto">
+          <div className="border-b border-[#3A4056]/50 w-full mb-6">
             <TabsList variant="underline">
               <TabsTab value="biography">
                 <Link
@@ -35,68 +33,106 @@ export default function Step2PokemonDetail() {
             </TabsList>
           </div>
           <TabsPanel value="biography">
-            <div className="flex flex-col pt-4 h-full w-full max-w-4/5 mx-auto">
-              <div
-                className={`w-full h-1/2 pokemon-type-${pokemon?.types?.[0]?.type?.name} mx-auto rounded-lg shadow-lg flex items-center justify-center`}
-              >
-                <img
-                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/other/official-artwork/${extractPokemonIdFromUrl(pokemon?.species?.url || '')}.png`}
-                  alt="Pokemon"
-                  className="w-2/5 h-2/5 object-scale-down mx-auto"
-                />
-              </div>
-              <div className="flex flex-col mt-4">
-                <div className="flex flex-row justify-between items-center">
-                  <p className=" text-2xl font-bold capitalize">
-                    {pokemon?.name}
-                  </p>
-                  <p className=" text-xl font-light text-muted-foreground">
-                    #{extractPokemonIdFromUrl(pokemon?.species?.url || '')}
-                  </p>
+            <div className="flex flex-col gap-6">
+              {/* Carte pour l'artwork du Pokémon */}
+              <Card className="overflow-hidden">
+                <div
+                  className={`w-full pokemon-type-${pokemon?.types?.[0]?.type?.name} flex items-center justify-center p-8`}
+                >
+                  <img
+                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/refs/heads/master/sprites/pokemon/other/official-artwork/${extractPokemonIdFromUrl(pokemon?.species?.url || '')}.png`}
+                    alt="Pokemon"
+                    className="w-64 h-64 object-contain"
+                  />
                 </div>
-                <div className="w-full max-w-md space-y-3 mt-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Created</span>
-                    <span className="text-foreground">May 2024</span>
+                <CardHeader>
+                  <div className="flex flex-row justify-between items-center">
+                    <CardTitle className="text-3xl font-bold capitalize">
+                      {pokemon?.name}
+                    </CardTitle>
+                    <p className="text-xl font-light text-muted-foreground">
+                      #{extractPokemonIdFromUrl(pokemon?.species?.url || '')}
+                    </p>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Client</span>
-                    <span className="text-foreground">Self-initiated</span>
+                </CardHeader>
+              </Card>
+
+              {/* Carte pour les métadonnées */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>Informations</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center py-2 border-b border-border/50">
+                      <span className="text-muted-foreground">Created</span>
+                      <span className="text-foreground font-medium">
+                        May 2024
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-border/50">
+                      <span className="text-muted-foreground">Client</span>
+                      <span className="text-foreground font-medium">
+                        Self-initiated
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center py-2">
+                      <span className="text-muted-foreground">Tags</span>
+                      <span className="text-foreground font-medium">
+                        Bold, Experimental
+                      </span>
+                    </div>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Tags</span>
-                    <span className="text-foreground">Bold, Experimental</span>
-                  </div>
-                </div>
-              </div>
+                </CardContent>
+              </Card>
             </div>
           </TabsPanel>
           <TabsPanel value="miscellaneous">
-            <p className="p-4 text-center text-md text-muted-foreground">
-              Tab 2 content
-            </p>
+            <Card>
+              <CardContent className="pt-6">
+                <p className="text-center text-md text-muted-foreground">
+                  Tab 2 content
+                </p>
+              </CardContent>
+            </Card>
           </TabsPanel>
           <TabsPanel value="stats">
-            <p className="p-4 text-center text-md text-muted-foreground">
-              Tab 3 content
-            </p>
+            <Card>
+              <CardContent className="pt-6">
+                <p className="text-center text-md text-muted-foreground">
+                  Tab 3 content
+                </p>
+              </CardContent>
+            </Card>
           </TabsPanel>
           <TabsPanel value="move-pool">
-            <p className="p-4 text-center text-md text-muted-foreground">
-              Tab 4 content
-            </p>
+            <Card>
+              <CardContent className="pt-6">
+                <p className="text-center text-md text-muted-foreground">
+                  Tab 4 content
+                </p>
+              </CardContent>
+            </Card>
           </TabsPanel>
           <TabsPanel value="sprites">
-            <p className="p-4 text-center text-md text-muted-foreground">
-              Tab 5 content
-            </p>
+            <Card>
+              <CardContent className="pt-6">
+                <p className="text-center text-md text-muted-foreground">
+                  Tab 5 content
+                </p>
+              </CardContent>
+            </Card>
           </TabsPanel>
           <TabsPanel value="tcg-cards">
-            <p className="p-4 text-center text-md text-muted-foreground">
-              Tab 6 content
-            </p>
+            <Card>
+              <CardContent className="pt-6">
+                <p className="text-center text-md text-muted-foreground">
+                  Tab 6 content
+                </p>
+              </CardContent>
+            </Card>
           </TabsPanel>
-        </Tabs>{' '}
+        </Tabs>
       </div>
     </article>
   )
